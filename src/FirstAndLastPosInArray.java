@@ -6,14 +6,16 @@ import java.util.Arrays;
 public class FirstAndLastPosInArray {
 
     public static void main(String[] args) {
-        int nums[]={5,7,7,8,8,10};
+        int nums[]={5,7,7,6,8,8,10};
         System.out.println(Arrays.toString(searchRange(nums,8)));
     }
     public static int[] searchRange(int[] nums, int target) {
-        int []ans=new int[2];
+        int []ans= {-1,-1};
 
         ans[0]=findPosition(nums,target,true);
-        ans[1]=findPosition(nums,target,false);
+        if(ans[0]!=-1) {
+            ans[1] = findPosition(nums, target, false);
+        }
         return ans;
 
     }
