@@ -1,4 +1,4 @@
-package src;
+package src.binarySearchIn2DArray;
 
 import java.util.Arrays;
 //Code for finding any element in 2D array where array is sorted coulmn wise and row wise

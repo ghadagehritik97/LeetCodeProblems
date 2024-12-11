@@ -1,4 +1,4 @@
-package src;
+package src.binarySearchOn1DArray;
 //question https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArrayLargestSum {
     public static void main(String[] args) {

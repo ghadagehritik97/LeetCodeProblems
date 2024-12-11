@@ -1,4 +1,4 @@
-package src;
+package src.binarySearchOn1DArray;
 
 public class RotationCountInRotatedArray {
     public static void main(String[] args) {

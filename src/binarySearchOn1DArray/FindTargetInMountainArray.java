@@ -1,4 +1,4 @@
-package src;
+package src.binarySearchOn1DArray;
 //https://leetcode.com/problems/find-in-mountain-array/description/
 
 public class FindTargetInMountainArray {
