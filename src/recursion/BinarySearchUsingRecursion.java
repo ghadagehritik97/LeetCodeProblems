@@ -1,5 +1,4 @@
 package src.recursion;
-
 public class BinarySearchUsingRecursion {
     public static void main(String[] args) {
         int []arr={1,12,43,55,89,99,105};

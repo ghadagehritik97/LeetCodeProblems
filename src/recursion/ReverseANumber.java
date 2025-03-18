@@ -1,0 +1,23 @@
+package src.recursion;
+
+public class ReverseANumber {
+    static int sum=0;
+    private static void reverse(int n) {
+        if(n==0){
+            return;
+        }
+        int rem=n%10;
+        sum=sum*10+rem;
+        reverse(n/10);
+
+
+    }
+    public static void main(String[] args) {
+        int n=4321;
+        reverse(n);
+        System.out.println(sum);
+
+    }
+
+
+}
