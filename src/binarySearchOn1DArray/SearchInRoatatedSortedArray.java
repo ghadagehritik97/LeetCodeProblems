@@ -2,7 +2,7 @@ package src.binarySearchOn1DArray;
 
 public class SearchInRoatatedSortedArray {
     public static void main(String[] args) {
-        int arr[]={6,7,1,2,3,4,5};
+        int arr[]={3,5,1};
         System.out.println(search(arr,3));
     }
         public static int search(int[] nums, int target) {
